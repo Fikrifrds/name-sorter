@@ -1,0 +1,17 @@
+{
+  "name": "name-sorter",
+  "version": "1.0.0",
+  "description": "Name sorter",
+  "keywords": [],
+  "scripts": {
+    "start": "name-sorter ./unsorted-names-list.txt",
+    "link": "chmod +x cli.js && npm link",
+    "test": "cd test && jest"
+  },
+  "author": "",
+  "license": "ISC",
+  "bin": "./cli.js",
+  "devDependencies": {
+    "jest": "^25.2.0"
+  }
+}
